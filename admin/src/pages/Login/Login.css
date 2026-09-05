@@ -1,0 +1,58 @@
+.user-page {
+  width: 70%;
+  margin-left: max(4vw, 50px);
+  margin-top: 50px;
+  color: #6d6d6d;
+  font-size: 16px;
+}
+
+.user-page h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: black;
+}
+
+.user-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.user-form label {
+  font-weight: 500;
+}
+
+.user-form input,
+.user-form select {
+  width: max(60%, 280px);
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline-color: seagreen;
+}
+
+.user-form select {
+  width: calc(max(60%, 280px) + 2px);
+}
+
+.user-form-buttons {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.user-form-buttons button {
+  max-width: 120px;
+  border: none;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.user-form-buttons button:hover {
+  background-color: #333;
+}
